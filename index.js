@@ -1,5 +1,8 @@
 const express = require("express");
 const bodyParser = require('body-parser');
+// Include helmet
+const helmet = require('helmet');
+app.use(helmet());
 
 const app = express();
 
